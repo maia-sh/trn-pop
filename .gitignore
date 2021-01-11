@@ -1,0 +1,6 @@
+.Rproj.user
+data/
+data-raw/pubmed-xml/
+README.Rmd
+.Rhistory
+.RData
