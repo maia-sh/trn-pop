@@ -27,7 +27,9 @@ depends on the max number of trial registrations numbers per type:
 
 To reproduce the intermediary data, run the scripts in `R`.
 
-In addition, `07_visualize-trn.R` creates UpSet plots for the secondary
+## Data Visualizations
+
+`07_visualize-trn-by-registry.R` creates UpSet plots for the secondary
 identifier and abstract trial registration numbers.
 
 ![UpSet plot of registrations in
@@ -35,3 +37,11 @@ metadata](output/2021-01-11_si-registrations.png "upset-si")
 
 ![UpSet plot of registrations in
 abstracts](output/2021-01-11_abs-registrations.png "upset-abs")
+
+`08_visualize-trials-w-trn-by-source.R` creates shows the number of
+trials with registration numbers reported by source, as well as the
+total number of trials classified as human clinical trials by PubMed.
+Note that a placeholder number is used for full-text.
+
+![Bar plot of trials with registration numbers by
+source](output/2021-01-14_trials_w_trn_by_source.png "trials-tn")
